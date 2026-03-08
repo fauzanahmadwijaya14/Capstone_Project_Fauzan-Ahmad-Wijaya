@@ -324,7 +324,7 @@ a.	Boxplot, Density Plot, dan UMAP Plot’
 
 Hasil boxplot dan density plot menunjukkan pola yang kurang lebih sama yaitu nilai ekspresi yang relatif seragam. Meskipun begitu bila dperhatikan dengan saksama maka dapat dilihat bahwa ukuran jangkauan pada jaringan tumor dan paratumor sedikit lebih besar dibandingkan jangkauan distribusi pada jaringan normal. Hal ini dapat tampak lebih jelas pada density plot di ekspresi sekitar 3-5 dari log2. Hal ini mengindikasikan bahwa ada kemungkinan peralihan karakteristik pada jaringan paratumor meskipun jaringan tersebut sejatinya masih tergolong secara histologi sebagai normal.
 
-![Boxplot](./Hasil_Diagram/Boxplot-Distribusi-Nilai-Ekspresi-per-Sampel.png)
+![Boxplot](Hasil_Diagram/Boxplot_Distribusi_Nilai_Ekspresi_per_Sampel.png)
 
 
 Di sisi lain pada UMAP plot dapat terlihat jelas bahwa ekspresi gen dari jaringan para tumor memiliki lebih banyak kedekatan dengan jaringan normal. Hal ini memperkuat karakterisktik paratumor sebagai jaringan yang secar histologi masih normal. Namun tidak dipungkiri, jaringan paratumor memiliki sejumlah gen yang dekat dengan gen tumor. Selain itu dapat terlihat bahwa adanya perbedaan sebaran gen yang drastis antara gen normal dan tumor.
