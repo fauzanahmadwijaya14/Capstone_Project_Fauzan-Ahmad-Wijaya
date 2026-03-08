@@ -326,24 +326,44 @@ Hasil boxplot dan density plot menunjukkan pola yang kurang lebih sama yaitu nil
 
 ![Boxplot](Hasil_Diagram/Boxplot_Distribusi_Nilai_Ekspresi_per_Sampel.png)
 
+![Density Plot](Hasil_Diagram/Distribusi_Nilai_Ekspresi_Gen.png)
 
 Di sisi lain pada UMAP plot dapat terlihat jelas bahwa ekspresi gen dari jaringan para tumor memiliki lebih banyak kedekatan dengan jaringan normal. Hal ini memperkuat karakterisktik paratumor sebagai jaringan yang secar histologi masih normal. Namun tidak dipungkiri, jaringan paratumor memiliki sejumlah gen yang dekat dengan gen tumor. Selain itu dapat terlihat bahwa adanya perbedaan sebaran gen yang drastis antara gen normal dan tumor.
+
+![UMAP Plot](Hasil_Diagram/UMAP_Plot.png)
+
 
 b. Volcano Plot
 
 Dari analisis DEG, gen yang berbeda signifikan pada perbandingan grup normal dengan paratumor hanya penurunan dari MYOC. MYOC adalah gen yang mengkode myocilin dan gen patogen umum pada penyakit glaukoma sudut terbuka (Zhou et al., 2022). Gen ini juga ditemukan pada perbandingan antara grup normal dengan grup tumor. Di sisi lain ini sejalan dengan Niu et al. (2025) yang menunjukkan bahwa ada gen-gen di tumor terekspresi secara signifikan lebih besar dibandingkan dengan paratumor. Karena hal ini juga volcano plot hanya tersedia bagi perbandingan normal dengan tumor. Dari volcano plot tersebut dapat dilihat bahwa ada perbedaan yang kentara antara grup normal dengan tumor. Hal ini sejalan dengan sebaran gen pada UMAP plot. Jumlah gen yang terekspresikan secara signifikan lebih banyak pada golongan downregulated sedangkan golongan upregulated memiliki rentang ekspresi lebih luas.
 
+![Volcano Plot](Hasil_Diagram/Volcano_Plot_Normal_dengan_Tumor.png)
+
 c. Heatmap Plot
 
 Pada heatmap plot dapat terlihat bahwa grup paratumor tetap memiliki gen yang berbeda secara ekspresi dibandigakn dengan grup normal. Meskipun begitu dapat terlihat juga bahwa perbedaan nilai ekspresi antara kedua golongan tersebut relatif rendah yang kembali memperkuat peran paratumor sebagai jarinan peralihan. Selanjutnya heatmap juga menunjukkan bahwa rentang dari gen upregulated lebih tinggi dibandingakan dengan downregulated. Pada upregulated, lebih banyak gen terekspresikan dengan nilai signifikansi yang tinggi. Hal ini sejalan dengan karakter jaringan tumor yang mengalami tingkat metabolisme dan proliferasi yang tinggi (Huang et al., 2025; Niu et al., 2025).
+
+![Heatmap](Hasil_Diagram/Heatmap_DEG.png)
 
 d. GO
 
 Pengayaan GO menunjukan bahwa 50 gen teratas lebih banyak berhubungan dengan pengaturan kolagen dan matriks ekstraseluler. Hal ini berhubungan dengan tumor di ESCC yang memang memiliki keterkaitan dengan fibroblas. Pada ESCC terdapat perbedaan karakteristik fibroblas dan produksi kolagen yang mendorong resistensi terhadap pengobatan secara radiasi (Yang et al., 2023). Banyaknya gen yang berkaitan dengan pengaturan matriks ekstraseluler berkaitan juga dengan kinerja fibrolas dalam proses pembentukan matriks ekstraseluler.
 
+![GO](Hasil_Diagram/GProfiler_Top50_Review.png)
+
 e. KEGG
 
 Hasil pengayaan KEGG menunjukkan kesesuaian dengan hasil GO. Hubungan yang dan nilai ekspresi yang besar dengan Rhematoid Arthritis berhubungan dengan kinerja fibroblas. Rhematoid Arthritis merupakan penyakit autoimun yang ditandai juga oleh ekspresi yang sangat tinggi dari fibroblast (Bhamidipati et al., 2026). Selain itu banyaknya keterkaitan gen-gen yang ada dengan jalur metabolisme lipid bersesuaian dengan karakteristik fisiologi ESCC. Lipid berperan penting dalam penyediaan energi, stabilitas membran, pensinyalan, dan dan pengenalan molekular pada ESCC (Jiao et al., 2024; Si et al., 2024). Hal ini memperkuat hasil GO dengan KEGG yang menunjukkan adanya banyak gen berkaitan dengan aktivitas matriks ekstraseluler. Selain itu gen yang berada pada jalur reseptor Toll-like bersesuaian dengan hasil GO mengenai Fibroblast. Reseptor Toll khususnya TLR9 memiliki keterkaitan dengan aktivitas sel fibroblas dan terekspresikan secara tinggi pada sel-sel kanker ESCC (Kauppila & Selander, 2014).
+
+![Barplot](Hasil_Diagram/Barplot_Enrichment_Top50.png)
+
+![Network](Hasil_Diagram/Network_Enrichment_Top50.png)
+
+![KEGG_Rheumatoid_Arthritis](Hasil_Diagram/KEGG_Top50_Rheumatoid_Arthritis.png)
+
+![KEGG_Lipid_and_Atherosclerosis](Hasil_Diagram/KEGG_Top50_Lipid_and_Atherosclerosis.png)
+
+![KEGG_Toll-like_receptor_signaling](Hasil_Diagram/KEGG_Top50_Toll-like_receptor_signaling.png)
 
 **Kesimpulan**
 
