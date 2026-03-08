@@ -1,1 +1,4 @@
-# Capstone_Project_Fauzan-Ahmad-Wijaya
+## Capstone_Project_Fauzan-Ahmad-Wijaya
+
+#Pendahuluan
+Percobaan ini dilakukan untuk mencoba mempraktikan analisis perbedaan ekspresi gen pada data GSE milik (Landi et al., 2008). Pada penelitian ini diteliti kondisi ekspresi gen pada jaringan paru-paru non terlibat yang berpasangan dengan perokok aktif, mantan perokok, dan bukan perokok yang divalidasi informasinya melalui Biokimia. Penelitian ini menggunakan 180 sampel jaringan adenokarsinoma dan non-tumor untuk dianalisis. Dari jumlah tersebut 148 menyediakan kuantitas RNA berkualitas tinggi yang kemudian dinormalisasi dan difilter hingga menjadi 107 sampel tandapa duplikat. Dari angka tersebut terdapat 58 jaringan tumor dan 49 jaringan non-tumor dari 20 orang non-perokok, 26 mantan perokok, dan 28 perokok aktif. Pada penelitian ini dikonfirmasi di jaringan adenokarsinoma dan non-tumor independen terdapat tanda ekspresi gen yang berbeda yang mencangkup siklus sel khususnya pada pembentukan spindel mitosis. Data penelitian tersebut kemudian digunakan untuk analisis perbedaan ekspresi dengan menggunakan R.
