@@ -324,8 +324,52 @@ a.	Boxplot, Density Plot, dan UMAP Plot’
 
 Hasil boxplot dan density plot menunjukkan pola yang kurang lebih sama yaitu nilai ekspresi yang relatif seragam. Meskipun begitu bila dperhatikan dengan saksama maka dapat dilihat bahwa ukuran jangkauan pada jaringan tumor dan paratumor sedikit lebih besar dibandingkan jangkauan distribusi pada jaringan normal. Hal ini dapat tampak lebih jelas pada density plot di ekspresi sekitar 3-5 dari log2. Hal ini mengindikasikan bahwa ada kemungkinan peralihan karakteristik pada jaringan paratumor meskipun jaringan tersebut sejatinya masih tergolong secara histologi sebagai normal.
 
+
+
 Di sisi lain pada UMAP plot dapat terlihat jelas bahwa ekspresi gen dari jaringan para tumor memiliki lebih banyak kedekatan dengan jaringan normal. Hal ini memperkuat karakterisktik paratumor sebagai jaringan yang secar histologi masih normal. Namun tidak dipungkiri, jaringan paratumor memiliki sejumlah gen yang dekat dengan gen tumor. Selain itu dapat terlihat bahwa adanya perbedaan sebaran gen yang drastis antara gen normal dan tumor.
 
 b. Volcano Plot
 
 Dari analisis DEG, gen yang berbeda signifikan pada perbandingan grup normal dengan paratumor hanya penurunan dari MYOC. MYOC adalah gen yang mengkode myocilin dan gen patogen umum pada penyakit glaukoma sudut terbuka (Zhou et al., 2022). Gen ini juga ditemukan pada perbandingan antara grup normal dengan grup tumor. Di sisi lain ini sejalan dengan Niu et al. (2025) yang menunjukkan bahwa ada gen-gen di tumor terekspresi secara signifikan lebih besar dibandingkan dengan paratumor. Karena hal ini juga volcano plot hanya tersedia bagi perbandingan normal dengan tumor. Dari volcano plot tersebut dapat dilihat bahwa ada perbedaan yang kentara antara grup normal dengan tumor. Hal ini sejalan dengan sebaran gen pada UMAP plot. Jumlah gen yang terekspresikan secara signifikan lebih banyak pada golongan downregulated sedangkan golongan upregulated memiliki rentang ekspresi lebih luas.
+
+c. Heatmap Plot
+
+Pada heatmap plot dapat terlihat bahwa grup paratumor tetap memiliki gen yang berbeda secara ekspresi dibandigakn dengan grup normal. Meskipun begitu dapat terlihat juga bahwa perbedaan nilai ekspresi antara kedua golongan tersebut relatif rendah yang kembali memperkuat peran paratumor sebagai jarinan peralihan. Selanjutnya heatmap juga menunjukkan bahwa rentang dari gen upregulated lebih tinggi dibandingakan dengan downregulated. Pada upregulated, lebih banyak gen terekspresikan dengan nilai signifikansi yang tinggi. Hal ini sejalan dengan karakter jaringan tumor yang mengalami tingkat metabolisme dan proliferasi yang tinggi (Huang et al., 2025; Niu et al., 2025).
+
+d. GO
+
+Pengayaan GO menunjukan bahwa 50 gen teratas lebih banyak berhubungan dengan pengaturan kolagen dan matriks ekstraseluler. Hal ini berhubungan dengan tumor di ESCC yang memang memiliki keterkaitan dengan fibroblas. Pada ESCC terdapat perbedaan karakteristik fibroblas dan produksi kolagen yang mendorong resistensi terhadap pengobatan secara radiasi (Yang et al., 2023). Banyaknya gen yang berkaitan dengan pengaturan matriks ekstraseluler berkaitan juga dengan kinerja fibrolas dalam proses pembentukan matriks ekstraseluler.
+
+e. KEGG
+
+Hasil pengayaan KEGG menunjukkan kesesuaian dengan hasil GO. Hubungan yang dan nilai ekspresi yang besar dengan Rhematoid Arthritis berhubungan dengan kinerja fibroblas. Rhematoid Arthritis merupakan penyakit autoimun yang ditandai juga oleh ekspresi yang sangat tinggi dari fibroblast (Bhamidipati et al., 2026). Selain itu banyaknya keterkaitan gen-gen yang ada dengan jalur metabolisme lipid bersesuaian dengan karakteristik fisiologi ESCC. Lipid berperan penting dalam penyediaan energi, stabilitas membran, pensinyalan, dan dan pengenalan molekular pada ESCC (Jiao et al., 2024; Si et al., 2024). Hal ini memperkuat hasil GO dengan KEGG yang menunjukkan adanya banyak gen berkaitan dengan aktivitas matriks ekstraseluler. Selain itu gen yang berada pada jalur reseptor Toll-like bersesuaian dengan hasil GO mengenai Fibroblast. Reseptor Toll khususnya TLR9 memiliki keterkaitan dengan aktivitas sel fibroblas dan terekspresikan secara tinggi pada sel-sel kanker ESCC (Kauppila & Selander, 2014).
+
+**Kesimpulan**
+
+Dari analisis ini dapat disimpulkan bahwa adanya perbedaan signifikan pada DEG antara kondisi jaringan normal dengan jaringan tumor pada ESCC. Jaringan paratumor ESCC memiliki hasil DEG yang lebih rendah dan menunjukkan karakteristiknya yang dekat dengan jaringan normal. Di sisi lain perbedaan signifikan antara jaringan normal dengan jaringan tumor berfokus pada gen-gen yang berkaitan dengan kinerja fibroblast, jalur metabolisme lipid, reseptor toll, dan aktivitas matriks ekstraseluler.
+
+**Referensi**
+
+Bhamidipati, K., McIntyre, A. B. R., Kazerounian, S., Ce, G., Wong, S. W., Tran, M., Prell, S. A., Lau, R., Khedgikar, V., Altmann, C., Small, A., Madhu, R., Presti, S. R., Anufrieva, K. S., Blazar, P. E., Lange, J. K., Seifert, J. A., Donlin, L. T., Donlin, L. T., … Wei, K. (2026). Spatial patterning of fibroblast TGFβ signaling underlies treatment resistance in rheumatoid arthritis. *Nature Immunology*, *27*(March). https://doi.org/10.1038/s41590-025-02386-2
+
+Chen, X., Zhao, Y., Wang, Y., Wang, X., Liu, Y., Liu, Z., & Li, Y. (2025). Single-cell atlas of the esophageal squamous cell carcinoma immune ecosystem to predict immunotherapy response. *Signal Transduction and Targeted Therapy*, *10*(1). https://doi.org/10.1038/s41392-025-02446-x
+
+Huang, T., You, Q., Liu, J., Shen, X., Huang, D., Tao, X., He, Z., Wu, C., Xi, X., Yu, S., Liu, F., Wu, Z., Mao, W., & Zhu, S. (2025). WTAP Mediated m6A Modification Stabilizes PDIA3P1 and Promotes Tumor Progression Driven by Histone Lactylation in Esophageal Squamous Cell Carcinoma. *Advanced Science*, *12*(33), 1–21. https://doi.org/10.1002/advs.202506529
+
+Jiao, R., Jiang, W., Xu, K., Luo, Q., Wang, L., & Zhao, C. (2024). Lipid metabolism analysis in esophageal cancer and associated drug discovery. *Journal of Pharmaceutical Analysis*, *14*(1), 1–15. https://doi.org/10.1016/j.jpha.2023.08.019
+
+Kauppila, J. H., & Selander, K. S. (2014). Toll-like receptors in esophageal cancer. *Frontiers in Immunology*, *5*(MAY), 3–6. https://doi.org/10.3389/fimmu.2014.00200
+
+Niu, L., Yang, W., Zhou, W., Duan, L., Wang, Q., Wang, X., Li, Y., Xu, C., Zhang, Y., Liu, J., Zhang, J., Fan, D., Zheng, J., & Hong, L. (2025). TGIF2-mediated HMGB3 overexpression promotes esophageal squamous cell carcinoma proliferation and metastasis through TLR3/TGF-β signaling. *Genes & Diseases*, *13*(3), 101987. https://doi.org/10.1016/j.gendis.2025.101987
+
+Qiu, H., Li, R., Li, P., & Xing, W. (2020). *Expression data from esophageal squamous cell carcinoma patients*. GEO Publications. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE161533
+
+Si, T., Liu, D., Li, L., Xu, Z., Jiang, L., Zhai, Y., & Wu, Q. (2024). Lipid Identification of Biomarkers in Esophageal Squamous Cell Carcinoma by Lipidomic Analysis. *Nutrition and Cancer*, *76*(7), 608–618. https://doi.org/10.1080/01635581.2024.2350097
+
+Wang, X., Jiang, J., He, H., & Wang, Y. (2025). Lactate-related gene signatures predict prognosis and immune profiles in esophageal squamous cell carcinoma. *Scientific Reports*, *15*(1), 1–18. https://doi.org/10.1038/s41598-025-10456-6
+
+Weidenbaum, C., & Gibson, M. K. (2022). Approach to Localized Squamous Cell Cancer of the Esophagus. *Current Treatment Options in Oncology*, *23*(10), 1370–1387. https://doi.org/10.1007/s11864-022-01003-w
+
+Yang, X., Chen, X., Zhang, S., Fan, W., Zhong, C., Liu, T., Cheng, G., Zhu, L., Liu, Q., Xi, Y., Tan, W., Lin, D., & Wu, C. (2023). Collagen 1-mediated CXCL1 secretion in tumor cells activates fibroblasts to promote radioresistance of esophageal cancer. *Cell Reports*, *42*(10), 113270. https://doi.org/10.1016/j.celrep.2023.113270
+
+Zhou, B., Lin, X., Li, Z., Yao, Y., Yang, J., & Zhu, Y. (2022). Structure‒function‒pathogenicity analysis of C-terminal myocilin missense variants based on experiments and 3D models. *Frontiers in Genetics*, *13*(October), 1–14. https://doi.org/10.3389/fgene.2022.1019208
