@@ -1,4 +1,6 @@
-## Capstone_Project_Fauzan-Ahmad-Wijaya
+## 351_Fauzan-Ahmad-Wijaya_Capstone_Project
+
+#Capstone Project – DEG dengan R Studio#
 
 **Pendahuluan**
 
