@@ -1,0 +1,42 @@
+"Pasted","Symbol","Ensembl Gene ID","Entrez","Type","Species","Chr","Position (Mbp)","Description","percentage_gc_content","transcript_count","genomeSpan","cds_length","transcript_length","FiveUTR","ThreeUTR","nExons"
+"ZNF710-AS1"," ZNF710-AS1","ENSG00000259291",109729181,"lncRNA","Human","15",90.074512,"ZNF710 antisense RNA 1 ",53.18,2,7696,NA,1650,NA,NA,2
+"P3H1"," P3H1","ENSG00000117385",64175,"protein_coding","Human","1",42.746335,"Prolyl 3-hydroxylase 1 ",50.04,14,20750,1672,1788,63,361,11
+"MINDY1"," MINDY1","ENSG00000143409",55793,"protein_coding","Human","1",150.996549,"MINDY lysine 48 deubiquitinase 1 ",49.2,6,11828,1210,2174,245,423,10
+"OLFML2B"," OLFML2B","ENSG00000162745",25903,"protein_coding","Human","1",161.983192,"Olfactomedin like 2B ",48.23,5,40678,1334,1833,326,239,6
+"NCF2"," NCF2","ENSG00000116701",4688,"protein_coding","Human","1",183.554461,"Neutrophil cytosolic factor 2 ",46.35,12,36445,1508,1970,154,542,13
+"C1ORF116"," C1orf116","ENSG00000182795",79098,"protein_coding","Human","1",207.018522,"Chromosome 1 open reading frame 116 ",47.45,2,14235,1490,4490,190,2505,4
+"FYCO1"," FYCO1","ENSG00000163820",79443,"protein_coding","Human","3",45.917903,"FYVE and coiled-coil domain autophagy adaptor 1 ",47.08,5,77922,1867,3908,130,1802,12
+"SPP1"," SPP1","ENSG00000118785",6696,"protein_coding","Human","4",87.975667,"Secreted phosphoprotein 1 ",36.13,26,7866,844,1634,59,413,6
+"STC2"," STC2","ENSG00000113739",8614,"protein_coding","Human","5",173.314723,"Stanniocalcin 2 ",50.41,5,13725,493,1656,189,1973,3
+"PLA2G7"," PLA2G7","ENSG00000146070",7941,"protein_coding","Human","6",46.704201,"Phospholipase A2 group VII ",40.97,2,31493,1326,1831,102,301,12
+"SNX10"," SNX10","ENSG00000086300",29887,"protein_coding","Human","7",26.291862,"Sorting nexin 10 ",42.67,27,82522,502,2568,98,1568,7
+"COL1A2"," COL1A2","ENSG00000164692",1278,"protein_coding","Human","7",94.394895,"Collagen type I alpha 2 chain ",37.38,12,36333,4101,2050,137,834,28
+"CTSB"," CTSB","ENSG00000164733",1508,"protein_coding","Human","8",11.842524,"Cathepsin B ",52.18,60,27010,938,2672,94,1282,11
+"LOXL2"," LOXL2","ENSG00000134013",4017,"protein_coding","Human","8",23.296897,"Lysyl oxidase like 2 ",48.43,15,128432,708,1080,137,654,6
+"DERL1"," DERL1","ENSG00000136986",79139,"protein_coding","Human","8",123.01317,"Derlin 1 ",41.15,6,29133,542,1551,106,644,7
+"CCN4"," CCN4","ENSG00000104415",8840,"protein_coding","Human","8",133.191039,"Cellular communication network factor 4 ",48.12,5,40652,594,1884,71,1101,4
+"PLAU"," PLAU","ENSG00000122861",5328,"protein_coding","Human","10",73.909177,"Plasminogen activator, urokinase ",53.5,5,8320,1011,1717,129,930,8
+"BLNK"," BLNK","ENSG00000095585",29760,"protein_coding","Human","10",96.189171,"B cell linker ",42.63,25,82417,365,1408,129,189,14
+"STN1"," STN1","ENSG00000107960",79991,"protein_coding","Human","10",103.856806,"STN1 subunit of CST complex ",43.4,20,61527,866,3261,125,1419,10
+"BBIP1"," BBIP1","ENSG00000214413",92482,"protein_coding","Human","10",110.89873,"BBSome interacting protein 1 ",38.61,15,20472,225,1240,66,690,4
+"ADAM12"," ADAM12","ENSG00000148848",8038,"protein_coding","Human","10",126.012381,"ADAM metallopeptidase domain 12 ",43.11,7,376097,2556,4579,317,3524,19
+"MMP1"," MMP1","ENSG00000196611",4312,"protein_coding","Human","11",102.789401,"Matrix metallopeptidase 1 ",39.71,4,8760,1410,1788,68,493,7
+"MMP3"," MMP3","ENSG00000149968",4314,"protein_coding","Human","11",102.835801,"Matrix metallopeptidase 3 ",38.03,3,7809,639,1000,62,210,7
+"MMP12"," MMP12","ENSG00000262406",4321,"protein_coding","Human","11",102.862736,"Matrix metallopeptidase 12 ",38.37,1,12247,1413,1822,45,364,10
+"ERBB3"," ERBB3","ENSG00000065361",2065,"protein_coding","Human","12",56.076799,"Erb-b2 receptor tyrosine kinase 3 ",50.12,33,26707,2040,2867,129,714,20
+"CRYL1"," CRYL1","ENSG00000165475",51084,"protein_coding","Human","13",20.403666,"Crystallin lambda 1 ",44.52,12,122208,575,1609,48,314,8
+"COL4A1"," COL4A1","ENSG00000187498",1282,"protein_coding","Human","13",110.148963,"Collagen type IV alpha 1 chain ",44.91,21,158240,2239,4829,147,550,41
+"GDPD3"," GDPD3","ENSG00000102886",79153,"protein_coding","Human","16",30.10481,"Glycerophosphodiester phosphodiesterase domain containing 3 ",53.57,5,8728,441,669,59,98,8
+"CCL3"," CCL3","ENSG00000277632",6348,"protein_coding","Human","17",36.088256,"C-C motif chemokine ligand 3 ",52.19,3,1914,279,990,85,416,2
+"CCL3L3"," CCL3L3","ENSG00000276085",6349,"protein_coding","Human","17",36.194869,"C-C motif chemokine ligand 3 like 3 ",52.7,3,1890,282,872,85,417,3
+"P3H4"," P3H4","ENSG00000141696",10609,"protein_coding","Human","17",41.801947,"Prolyl 3-hydroxylase family member 4 (inactive) ",56.65,8,10658,849,1546,143,758,6
+"MRGBP"," MRGBP","ENSG00000101189",55257,"protein_coding","Human","20",62.796473,"MRG domain binding protein ",59.24,1,5257,615,2752,51,2086,5
+"BID"," BID","ENSG00000015475",637,"protein_coding","Human","22",17.734138,"BH3 interacting domain death agonist ",52.51,11,40633,438,1454,101,800,5
+"CCL3"," CCL3","ENSG00000278567",6348,"protein_coding","Human","HSCHR17_10_CTG4",0.042353,"C-C motif chemokine ligand 3 ",52.19,3,1914,279,989,83,416,2
+"CCL3L3"," CCL3L3","ENSG00000293545",414062,"protein_coding","Human","HSCHR17_10_CTG4",0.149003,"C-C motif chemokine ligand 3 like 3 ",47.11,3,103453,282,872,85,417,3
+"CCL3L3"," CCL3L3","ENSG00000277768",6349,"protein_coding","Human","HSCHR17_10_CTG4",0.250577,"C-C motif chemokine ligand 3 like 3 ",52.65,1,1890,282,784,85,417,3
+"CCL3"," CCL3","ENSG00000274221",6348,"protein_coding","Human","HSCHR17_7_CTG4",0.32313,"C-C motif chemokine ligand 3 ",52.19,3,1914,279,989,83,416,2
+"CCL3L3"," CCL3L3","ENSG00000277336",6349,"protein_coding","Human","HSCHR17_7_CTG4",0.429773,"C-C motif chemokine ligand 3 like 3 ",52.7,3,1890,282,872,85,417,3
+"CTSB"," CTSB","ENSG00000285132",1508,"protein_coding","Human","HG76_PATCH",1.478526,"Cathepsin B ",52.18,58,27044,938,2770,93,1328,11
+"CCL3L1",NA,"Not mapped",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"NA",NA,"Not mapped",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
